@@ -1,0 +1,32 @@
+# Local state and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+secrets/
+
+# VM images, captures, logs, and evidence
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.pcap
+*.pcapng
+*.log
+evidence/
+artifacts/
+
+# Tooling
+.venv/
+__pycache__/
+node_modules/
+.terraform/
+*.tfstate*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
