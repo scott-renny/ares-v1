@@ -2,6 +2,8 @@
 
 > A headless, Proxmox-based cyber range for controlled adversary simulation and detection validation.
 
+![Proxmox](https://img.shields.io/badge/platform-Proxmox-E57000) ![Detection Validation](https://img.shields.io/badge/focus-detection%20validation-blue) ![Adversary Simulation](https://img.shields.io/badge/lab-adversary%20simulation-red) ![License](https://img.shields.io/badge/license-MIT-green)
+
 Ares v1 repurposes an existing Windows 10-era desktop largely as-is. The first milestone is a useful, repeatable lab—not a hardware rebuild. The platform orchestrates isolated attack scenarios, restores known-good snapshots, measures defensive visibility, and produces after-action evidence.
 
 ## Mission
